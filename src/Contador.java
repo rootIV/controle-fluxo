@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Contador {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
 
@@ -28,5 +28,8 @@ public class Main {
         for(int i = 1; i <= contagem; i++){
             System.out.println(STR."Imprimindo o número: \{i}");
         }
+    }
+
+    public static class ParametrosInvalidosException extends Exception{
     }
 }
